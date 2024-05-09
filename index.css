@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+}
+header{
+    display: flex;
+    margin: 50px;
+    border-radius: 20px;
+    background-color: white;
+    border-radius: 100px;
+}
+nav ul{
+    display: block;
+    margin: 50px;
+    background-color:white;
+    align-items: center;
+
+}
+button{
+    display: flex;
+    width: 100px;
+    margin: 10px;
+    padding: 8px;
+    border: none;
+    background-color: rgba(37, 116, 79, 0.342);
+    border-radius: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(min-width:480%){
+    div{
+        width: 50px;
+        margin: 70px auto;
+    }
+}
